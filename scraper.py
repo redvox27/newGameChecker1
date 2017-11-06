@@ -66,7 +66,7 @@ class Scraper():
 
         server = smtplib.SMTP('smtp-mail.outlook.com', 587)
         server.starttls()
-        server.login(fromaddr, "redvoxvtl54711852654")
+        server.login(fromaddr, "#enterpassword")
         text = msg.as_string()
         server.sendmail(fromaddr, toaddr, text)
 
