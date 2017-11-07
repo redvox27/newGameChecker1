@@ -1,7 +1,7 @@
 import pymysql
 class MySql():
 
-    db = pymysql.connect(host='localhost', port=3306, user='root', passwd='Vtl54711', db='games')
+    db = pymysql.connect(host='localhost', port=3306, user='root', passwd='#enterPassword', db='#enterDatanase')
     cursor = db.cursor()
 
     def insertGame(self, title, releaseDate):
